@@ -21,10 +21,10 @@ document.getElementById("submitBtn").addEventListener("click", () => {
 
 const choix = () => {
 	nb = 0;
-	if (viktor.checked == true){
+	if (majuscule.checked == true){
 		nb = nb+1;
 	}
-	if (vi.checked == true){
+	if (caractereSpeciaux.checked == true){
 		nb = nb+1;
 	}
 	if (silco.checked == true){
