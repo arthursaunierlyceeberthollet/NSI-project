@@ -18,3 +18,26 @@ document.getElementById("submitBtn").addEventListener("click", () => {
       document.getElementById("response").textContent = "Erreur serveur.";
     });
 });
+
+const choix = () => {
+	nb = 0;
+	if (viktor.checked == true){
+		nb = nb+1;
+	}
+	if (vi.checked == true){
+		nb = nb+1;
+	}
+	if (silco.checked == true){
+		nb = nb+1;
+	}
+	if (caitlyn.checked == true){
+		nb = nb+1;
+	}
+	if (jinx.checked == true){
+		nb = nb+1;
+	}
+	if (embessa.checked == true){
+		nb = nb+1;
+	}
+	return nb;
+}
