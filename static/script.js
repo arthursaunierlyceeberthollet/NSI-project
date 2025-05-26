@@ -27,17 +27,7 @@ const choix = () => {
 	if (caractereSpeciaux.checked == true){
 		nb = nb+1;
 	}
-	if (silco.checked == true){
+	if (chiffre.checked == true){
 		nb = nb+1;
-	}
-	if (caitlyn.checked == true){
-		nb = nb+1;
-	}
-	if (jinx.checked == true){
-		nb = nb+1;
-	}
-	if (embessa.checked == true){
-		nb = nb+1;
-	}
-	return nb;
+	console.log( nb);
 }
