@@ -17,17 +17,17 @@ caracteres = [a,z,e,r,t,y,u,i,o,p,q,s,d,f,g,h,j,k,l,m,w,x,c,v,b,n];
 
 
 for i in range(nombre):
-	if chiffre = true
+	if chiffre = True
 	a = random.randint(0, 10)
 		if proba_chiffre > a :
 			PASSWORD += str(ensemble_caractères[0][a])
 			proba_chiffre -= 1
-	if maj = true
+	if maj = True
 	a = random.randint(0, 10)
 		if proba_maj > a :
 			PASSWORD += str(ensemble_caractères[1][a])
 			proba_maj -= 1
-	if spe = true
+	if spe = True
 	a = random.randint(0, 10)
 		if proba_spe > a :
 			PASSWORD += str(ensemble_caractères[2][a])
